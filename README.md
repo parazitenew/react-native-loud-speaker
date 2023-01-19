@@ -18,11 +18,11 @@ NOTA: The update I made are for Android only.
 ```sh
 npm install react-native-toggle-loud-speaker --save
 ```
-### Installation (iOS)
+## Installation (iOS)
 * Drag LoudSpeaker.xcodeproj to your project on Xcode.
 * Click on your main project file (the one that represents the .xcodeproj) select Build Phases and drag libLoudSpeaker.a from the Products folder inside the LoudSpeaker.xcodeproj.
 
-### Installation (Android)
+## Installation (Android)
 You don't need this for RN >= 60
 ```gradle
 ...
@@ -56,7 +56,7 @@ protected List<ReactPackage> getPackages() {
 
 ```
 
-### Usage
+## Usage
 
 ```
 import React, { Component } from 'react';
@@ -100,3 +100,10 @@ const styles = StyleSheet.create({
   },
 });
 ```
+## Changelog
+### 1.1.0
+* Updated Compile SDK to 31
+* Updated Target SDK to 31
+* Updated buildtool to 31.0.0
+* Fixed `Could not find method compile()` build error
+* Changed Java code for `onOpen()` methode to toggle speaker on/off
