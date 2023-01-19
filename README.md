@@ -1,4 +1,4 @@
-# React Native Loud Speaker
+# React Native Toggle Loud Speaker
 
 A node modules can open loud speaker for react native.
 Support for ios and android.
