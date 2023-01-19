@@ -11,6 +11,8 @@ I also edited the Java code so the method `LoudSpeaker.open(true)` can toggle th
 
 Since I'm not a Java developper, I wasn't able to improve it more than that. But all contributions are welcome.
 
+NOTA: The update I made are for Android only.
+
 # Installation
 
 ```sh
