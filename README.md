@@ -13,10 +13,13 @@ Since I'm not a Java developper, I wasn't able to improve it more than that. But
 
 NOTA: The update I made are for Android only.
 
+[![NPM](https://img.shields.io/npm/v/react-native-toggle-loud-speaker.svg)](https://www.npmjs.com/package/react-native-toggle-loud-speaker) [![NPM](https://img.shields.io/npm/dw/react-native-toggle-loud-speaker.svg)](https://www.npmjs.com/package/react-native-toggle-loud-speaker) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![JavaScript Style Guide](https://img.shields.io/github/stars/parazitenew/react-native-toggle-loud-speaker.svg)](https://github.com/parazitenew/react-native-toggle-loud-speaker)
+[![JavaScript Style Guide](https://img.shields.io/github/issues/parazitenew/react-native-toggle-loud-speaker.svg)](https://github.com/parazitenew/react-native-toggle-loud-speaker) [![NPM](https://img.shields.io/npm/types/react-native-toggle-loud-speaker.svg)](https://www.npmjs.com/package/react-native-toggle-loud-speaker) 
+
 # Installation
 
 ```sh
-npm install react-native-toggle-loud-speaker --save
+npm install react-native-toggle-loud-speaker
 ```
 ## Installation (iOS)
 * Drag LoudSpeaker.xcodeproj to your project on Xcode.
