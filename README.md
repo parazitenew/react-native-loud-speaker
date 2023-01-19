@@ -61,7 +61,7 @@ protected List<ReactPackage> getPackages() {
 
 ## Usage
 
-```
+```jsx
 import React, { Component } from 'react';
 import {
   Platform,
