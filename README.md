@@ -3,7 +3,7 @@
 A node modules can open loud speaker for react native.
 Support for ios and android.
 
-This package was forked from huutq88/react-native-loud-speaker
+This package was forked from huutq88/react-native-toggle-loud-speaker
 
 I updated the target and compile SDK to 31, and fixed a build error by changing `compile()` to `implementation`
 
@@ -16,7 +16,7 @@ NOTA: The update I made are for Android only.
 # Installation
 
 ```sh
-npm install react-native-loud-speaker --save
+npm install react-native-toggle-loud-speaker --save
 ```
 ### Installation (iOS)
 * Drag LoudSpeaker.xcodeproj to your project on Xcode.
@@ -26,8 +26,8 @@ npm install react-native-loud-speaker --save
 You don't need this for RN >= 60
 ```gradle
 ...
-include ':react-native-loud-speaker'
-project(':react-native-loud-speaker').projectDir = new File(settingsDir, '../node_modules/react-native-loud-speaker/android')
+include ':react-native-toggle-loud-speaker'
+project(':react-native-toggle-loud-speaker').projectDir = new File(settingsDir, '../node_modules/react-native-toggle-loud-speaker/android')
 ```
 You don't need this for RN >= 60
 * In `android/app/build.gradle`
@@ -36,7 +36,7 @@ You don't need this for RN >= 60
 ...
 dependencies {
     ...
-    compile project(':react-native-loud-speaker')
+    compile project(':react-native-toggle-loud-speaker')
 }
 ```
 
@@ -67,7 +67,7 @@ import {
   View,
   TouchableOpacity
 } from 'react-native';
-import LoudSpeaker from 'react-native-loud-speaker'
+import LoudSpeaker from 'react-native-toggle-loud-speaker'
 
 export default class App extends Component<{}> {
   toggleLoudSpeaker = () => {

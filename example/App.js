@@ -12,7 +12,7 @@ import {
   View,
   TouchableOpacity
 } from 'react-native';
-import LoudSpeaker from 'react-native-loud-speaker'
+import LoudSpeaker from 'react-native-toggle-loud-speaker'
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +

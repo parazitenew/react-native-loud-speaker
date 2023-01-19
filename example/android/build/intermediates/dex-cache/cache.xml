@@ -48,12 +48,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/gaaus/Desktop/Demo/MyLib/android/app/build/intermediates/exploded-aar/MyLib/react-native-loud-speaker/unspecified/jars/classes.jar"
+        jar="/Users/gaaus/Desktop/Demo/MyLib/android/app/build/intermediates/exploded-aar/MyLib/react-native-toggle-loud-speaker/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="4f76401db446c300f19d9e663f2328f7af064ed0">
-        <dex dex="/Users/gaaus/Desktop/Demo/MyLib/android/app/build/intermediates/pre-dexed/debug/MyLib-react-native-loud-speaker-unspecified_77241a3a2290553d1f9c0f876ed4d5b91c9f5988.jar" />
+        <dex dex="/Users/gaaus/Desktop/Demo/MyLib/android/app/build/intermediates/pre-dexed/debug/MyLib-react-native-toggle-loud-speaker-unspecified_77241a3a2290553d1f9c0f876ed4d5b91c9f5988.jar" />
     </item>
     <item
         is-multidex="false"

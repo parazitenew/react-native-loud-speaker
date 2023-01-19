@@ -351,7 +351,7 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		C64D3FFF59034E75B477EA83 /* LoudSpeaker.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = LoudSpeaker.xcodeproj; path = "../node_modules/react-native-loud-speaker/ios/LoudSpeaker.xcodeproj"; sourceTree = "<group>"; };
+		C64D3FFF59034E75B477EA83 /* LoudSpeaker.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = LoudSpeaker.xcodeproj; path = "../node_modules/react-native-toggle-loud-speaker/ios/LoudSpeaker.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1212,7 +1212,7 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-loud-speaker/ios",
+					"$(SRCROOT)/../node_modules/react-native-toggle-loud-speaker/ios",
 				);
 				INFOPLIST_FILE = MyLibTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1237,7 +1237,7 @@
 				COPY_PHASE_STRIP = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-loud-speaker/ios",
+					"$(SRCROOT)/../node_modules/react-native-toggle-loud-speaker/ios",
 				);
 				INFOPLIST_FILE = MyLibTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1263,7 +1263,7 @@
 				DEAD_CODE_STRIPPING = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-loud-speaker/ios",
+					"$(SRCROOT)/../node_modules/react-native-toggle-loud-speaker/ios",
 				);
 				INFOPLIST_FILE = MyLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1284,7 +1284,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-loud-speaker/ios",
+					"$(SRCROOT)/../node_modules/react-native-toggle-loud-speaker/ios",
 				);
 				INFOPLIST_FILE = MyLib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1312,7 +1312,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-loud-speaker/ios",
+					"$(SRCROOT)/../node_modules/react-native-toggle-loud-speaker/ios",
 				);
 				INFOPLIST_FILE = "MyLib-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1346,7 +1346,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-loud-speaker/ios",
+					"$(SRCROOT)/../node_modules/react-native-toggle-loud-speaker/ios",
 				);
 				INFOPLIST_FILE = "MyLib-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

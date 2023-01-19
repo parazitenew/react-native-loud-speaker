@@ -1,5 +1,5 @@
 {
-  "name": "react-native-loud-speaker",
+  "name": "react-native-toggle-loud-speaker",
   "version": "1.0.3",
   "keywords": [
     "react-native",
@@ -9,12 +9,13 @@
     "loud-speaker"
   ],
   "author": "huutq <huutq88@gmail.com>",
-  "homepage": "https://github.com/huutq88/react-native-loud-speaker",
+  "contributors": ["Imed Ramdani <contact@imedramdani.com>"],
+  "homepage": "https://github.com/parazitenew/react-native-toggle-loud-speaker",
     "bugs": {
-        "url": "https://github.com/huutq88/react-native-loud-speaker/issues"
+        "url": "https://github.com/parazitenew/react-native-toggle-loud-speaker/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/huutq88/react-native-loud-speaker.git"
+        "url": "https://github.com/parazitenew/react-native-toggle-loud-speaker.git"
     }
 }
