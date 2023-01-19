@@ -5,7 +5,7 @@ Support for ios and android.
 
 This package was forked from huutq88/react-native-loud-speaker
 
-I updated the target and compile SDK, and fixed a build error by changing `compile()` to `implementation`
+I updated the target and compile SDK to 31, and fixed a build error by changing `compile()` to `implementation`
 
 I also edited the Java code so the method `LoudSpeaker.open(true)` can toggle the speaker on/off. Originally, this package was turning it on, but never off. This part of the code was not implemented by the original author.
 
