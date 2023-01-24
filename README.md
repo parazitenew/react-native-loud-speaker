@@ -61,7 +61,7 @@ protected List<ReactPackage> getPackages() {
 
 ## Usage
 
-```
+```jsx
 import React, { Component } from 'react';
 import {
   Platform,
@@ -109,4 +109,4 @@ const styles = StyleSheet.create({
 * Updated Target SDK to 31
 * Updated buildtool to 31.0.0
 * Fixed `Could not find method compile()` build error
-* Changed Java code for `onOpen()` methode to toggle speaker on/off
+* Changed Java code for `open()` methode to toggle speaker on/off
