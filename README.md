@@ -7,7 +7,7 @@ This package was forked from huutq88/react-native-toggle-loud-speaker
 
 I updated the target and compile SDK to 31, and fixed a build error by changing `compile()` to `implementation`
 
-I also edited the Java code so the method `LoudSpeaker.open(true)` can toggle the speaker on/off. Originally, this package was turning it on, but never off. This part of the code was not implemented by the original author.
+I also edited the Java code so the method `LoudSpeaker.open()` can turn the speaker on/off by adding the parameter `true/false`. Originally, this package was turning it on, but never off. This part of the code was not implemented by the original author.
 
 Since I'm not a Java developper, I wasn't able to improve it more than that. But all contributions are welcome.
 
@@ -73,15 +73,21 @@ import {
 import LoudSpeaker from 'react-native-toggle-loud-speaker'
 
 export default class App extends Component<{}> {
-  toggleLoudSpeaker = () => {
+  enableSpeaker = () => {
     LoudSpeaker.open(true)
+  }
+  disableSpeaker = () => {
+    LoudSpeaker.open(false)
   }	
   
   render() {
     return (
       <View style={styles.container}>
-        <TouchableOpacity onPress={this.toggleLoudSpeaker} style={styles.button}>
+        <TouchableOpacity onPress={this.enableSpeaker} style={styles.button}>
 	        <Text>Enable</Text>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={this.disableSpeaker} style={styles.button}>
+	        <Text>Disable</Text>
         </TouchableOpacity>
       </View>
     );
