@@ -104,6 +104,8 @@ const styles = StyleSheet.create({
 });
 ```
 ## Changelog
+### 1.2.0
+* Changed toggle behavior by enable/disable behavior
 ### 1.1.0
 * Updated Compile SDK to 31
 * Updated Target SDK to 31
