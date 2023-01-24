@@ -37,11 +37,11 @@ public class LoudSpeakerModules extends ReactContextBaseJavaModule {
 	public void open(Boolean voice){
 		AudioManager audioManager = (AudioManager) reactContext.getSystemService(Context.AUDIO_SERVICE);
 
-				if (!audioManager.isSpeakerphoneOn()){
+				if (voice == true){
 					audioManager.setMode(AudioManager.MODE_IN_COMMUNICATION);
 					audioManager.setSpeakerphoneOn(true);
 				}
-				else{
+				else if (voice == false){
                 	audioManager.setMode(AudioManager.MODE_NORMAL);
 					audioManager.setSpeakerphoneOn(false);
 				}
@@ -50,7 +50,7 @@ public class LoudSpeakerModules extends ReactContextBaseJavaModule {
 	public void about(final Promise promise)
 	{
         try{
-			promise.resolve("Author: Appota Fullstack team 1/2018");
+			promise.resolve("");
 		} catch (Exception e) {
 			promise.reject("error","this is a error message");
 		}
